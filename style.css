@@ -1,0 +1,64 @@
+body, button{
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    color:#0c1753;
+}
+
+.n-li {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    gap:20px;
+    padding-right: 30px;
+    width:300px;
+    justify-content: space-evenly;
+    letter-spacing: 0.2em;
+}
+    
+
+.n-li a {
+    text-decoration: none;
+    color:#0c1753
+}
+
+nav img{
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+nav h1{
+    position: absolute;
+    left:70px;
+    font-weight: bolder;
+    padding-left: 1px;
+    float:right;
+}
+
+.box1{
+    display: flex;
+    min-height: 300px;
+    justify-content: space-between;
+    align-items:center; 
+    color:white;
+    background:linear-gradient(180deg,#0c175398,#9375ff94) ;
+}
+
+.box1 img{
+    width: 50%;
+    height: auto;
+ }
+
+ #btnMore {
+     color:#00a69c;
+     background-color: #ffe101;
+     font-weight: bold;
+ }
+
