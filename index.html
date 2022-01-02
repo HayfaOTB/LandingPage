@@ -1,40 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <title>Haifa</title>
+    <title>Haifa's Page</title>
 </head>
 
 <body>
-    <nav>
-        <img src="img/logo.png" alt="Website Logo">
-        <H1>Develop</H1>
-        <ul class="n-li">
-        <li> <a href="">Home</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
 
-<section class="box1">
-        <h2> One more for good measure </h2>
-        <p> some representative placeholder content about web development and how awesome </p>
-        <img src="img/Development.png" alt="picture of company"/>
-        <button id="btnMore" type="button">More</button>
+    <header>
+        <img class="logo" src="img/colored logo.png">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="con1">
+        <div class="title1">
+            <h2>One more for good measure.</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, architecto!</p>
+            <button class="mainbtn" type="button">More</button>
+        </div>
+        <img src="img/Development.png" alt="picture1">
     </section>
 
-<!--
-<section>
-    <h2><b>Our Professional Services </b></h2>
-</section>
-  -->
+    <section class="con2">
+        <h2>Our Professional Services</h2>
+    </section>
+
+    <section class="con3">
+        <div class="card">
+            <div class="card-img card1"> </div>
+            <p>UX/UI</p>
+        </div>
+        <div class="card">
+            <div class="card-img card2"></div>
+            <p>Front End</p>
+        </div>
+        <div class="card">
+            <div class="card-img card3"></div>
+            <p>Support</p>
+        </div>
+    </section>
+
+
+    <section class="part">
+        <img src="img/4.png">
+        <div class="p1-text">
+            <h3>Get Started with our software</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vero tenetur odit saepe corporis commodi
+                doloribus ut pariatur ex. Cumque?</p>
+            <ul>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="part">
+        <div class="p2-text">
+            <h3>Get Started with our software</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vero tenetur odit saepe corporis commodi
+                doloribus ut pariatur ex. Cumque?</p>
+            <ol>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            </ol>
+        </div>
+        <img src="img/1.png">
+    </section>
+
+    <section class="part">
+        <img src="img/2.png">
+        <div class="p3-text">
+            <h3>Get Started with our software</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vero tenetur odit saepe corporis commodi
+                doloribus ut pariatur ex. Cumque?</p>
+            <ul>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="contact-form">
+        <h2> Get in touch with us!</h2>
+        <form class="form" action="">
+            <p>We will reply to you as soons as possible.</p>
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="text" id="city" placeholder="City">
+            <input type="text" id="email" placeholder="Work Email">
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea name="msg">Message </textarea><br>
+            <button>Submit</button>
+        </form>
+    </section>
+
+
+
+    <div class="row">
+        <img class="row-item" src="img/center colored logo.png">
+
+        <div class="row-item">
+            <h3>Website Pages:</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="row-item">
+            <h3>Our Terms:</h3>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+            </ul>
+        </div>
+        <div class="row-item">
+            <h3>Find Us on:</h3>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        Copyright &copy 2021 <p id="dev">Develop </p> All Rights Reserved.
+    </footer>
+
 </body>
+
 </html>
